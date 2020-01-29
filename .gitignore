@@ -1,3 +1,4 @@
 .vscode/
 Example Code/
 venv/
+__pycache__/
