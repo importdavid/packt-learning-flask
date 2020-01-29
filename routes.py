@@ -5,7 +5,6 @@ from forms import SignupForm
 
 app = Flask(__name__)
 
-dbpw = os.environ['DB_PASSWORD']
 app.config['SQLALCHEMY_DATABASE_URI'] = f"postgresql://postgres:{os.environ['DB_PASSWORD']}@localhost:5432/learningflask"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
