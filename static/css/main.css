@@ -95,6 +95,11 @@ header {
   padding: 25px 0;
 }
 
+nav {
+    float: right;
+    margin-right: 10px;
+}
+
 .title {
   float: left;
   font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
